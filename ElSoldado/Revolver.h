@@ -4,7 +4,8 @@
 class Revolver : Arma
 {
 public:
-	string nombre = "Revolver";
+	Revolver() { this->nombre = "Revolver"; }
+	~Revolver() { };
 	string disparar() { return "Púm..."; }
 };
 

@@ -4,7 +4,8 @@
 class Rifle : Arma
 {
 public:
-	string nombre = "Rifle";
+	Rifle() { this->nombre = "Rifle"; }
+	~Rifle() { };
 	string disparar() { return "Púm púm púm!..."; }
 };
 

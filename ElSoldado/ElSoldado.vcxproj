@@ -136,6 +136,7 @@
   <ItemGroup>
     <ClCompile Include="Arma.cpp" />
     <ClCompile Include="Escopeta.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Revolver.cpp" />
     <ClCompile Include="Rifle.cpp" />
     <ClCompile Include="Soldado.cpp" />

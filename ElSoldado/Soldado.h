@@ -3,11 +3,11 @@
 
 class Soldado { 
 
-private:
+protected:
 	Arma *arma;
 public:
-	Soldado(Arma *arma);
-	~Soldado();
+	Soldado(Arma* arma) { this->arma = arma; };
+	~Soldado() { delete arma; };
 	void recogerArma(Arma *arma);
 	void dejarArma();
 	void disparar();

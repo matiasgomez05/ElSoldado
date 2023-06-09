@@ -4,7 +4,8 @@
 class Escopeta : Arma
 {
 public:
-	string nombre = "Escopeta";
+	Escopeta() { this->nombre = "Escopeta"; }
+	~Escopeta() { };
 	string disparar() { return "бPссс!..."; }
 };
 

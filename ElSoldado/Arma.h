@@ -6,8 +6,10 @@ using namespace std;
 
 class Arma
 {
-public: 
+protected:
 	string nombre;
+	Arma();
+	virtual ~Arma();
 	virtual string disparar();
 };
 
